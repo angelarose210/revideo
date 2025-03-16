@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+    "predev": "npm run build -w packages/vite-plugin",
     "start": "npm run dev -w packages/examples",
     "core:dev": "npm run dev -w packages/core",
     "core:build": "npm run build -w packages/core",
