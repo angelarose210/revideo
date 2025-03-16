@@ -5,7 +5,15 @@
     "node": ">=20.0.0"
   },
   "workspaces": [
-    "packages/*"
+    "packages/core",
+    "packages/2d",
+    "packages/ui",
+    "packages/template",
+    "packages/examples",
+    "packages/renderer",
+    "packages/player",
+    "packages/vite-plugin",
+    "packages/e2e"
   ],
   "scripts": {
     "predev": "npm run build -w packages/vite-plugin",
