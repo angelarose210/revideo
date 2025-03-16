@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "npm run dev -w packages/examples" // 👈 Replace with your main workspace
+    "start": "npm run dev -w packages/examples",
     "core:dev": "npm run dev -w packages/core",
     "core:build": "npm run build -w packages/core",
     "core:bundle": "npm run bundle -w packages/core",
